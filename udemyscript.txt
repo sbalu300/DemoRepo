@@ -1,0 +1,17 @@
+
+pipeline 
+{
+agent any 
+ environment 
+ {
+ Tool ='Jenkins'
+ }
+ 
+ stages 
+ {
+ stage ("scenario from git")
+ {
+ steps {
+ echo "hello world $Tool "
+ }}}}
+
