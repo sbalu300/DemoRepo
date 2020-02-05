@@ -4,7 +4,7 @@ pipeline
 agent any 
  environment 
  {
- Tool ='Jenkins'
+ Tool ='udemy git test'
  }
  
  stages 
