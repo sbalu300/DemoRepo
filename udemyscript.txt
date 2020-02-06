@@ -1,17 +1,1 @@
-
-pipeline 
-{
-agent any 
- environment 
- {
- Tool ='udemy git test'
- }
- 
- stages 
- {
- stage ("scenario from git")
- {
- steps {
- echo "hello world $Tool "
- }}}}
-
+4
